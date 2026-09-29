@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+/dist/
+/build/
+/.vite/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+
+# Optional: local coverage/test output
+coverage/
+
+# Optional: generated cache folders
+.cache/
+.parcel-cache/
